@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/butfood"
+        android:layout_width="173dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="119dp"
+        android:background="@drawable/shap"
+        android:text="Food"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butclothes"
+        android:layout_width="173dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="119dp"
+        android:background="@drawable/shap"
+        android:text="Clothes"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butfood" />
+
+    <Button
+        android:id="@+id/butelectronic"
+        android:layout_width="173dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="119dp"
+        android:background="@drawable/shap"
+        android:text="Electronic"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butclothes" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
